@@ -5,4 +5,5 @@
     <string name="blue">Blue</string>
     <string name="yellow">Yellow</string>
     <string name="red">Red</string>
+    <string name="title_activity_quiz">QuizActivity</string>
 </resources>
