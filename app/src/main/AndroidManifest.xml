@@ -21,7 +21,6 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".GreenActivity" />
         <activity android:name=".BlueActivity" />
-        <activity android:name=".Main2Activity" />
         <activity android:name=".YellowActivity" />
         <activity android:name=".RedActivity" />
         <activity
