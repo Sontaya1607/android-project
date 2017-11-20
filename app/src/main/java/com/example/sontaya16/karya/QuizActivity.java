@@ -9,8 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 import java.util.Random;
+import static android.content.pm.ActivityInfo.SCREEN_ORIENTATION_NOSENSOR;
 
 public class QuizActivity extends AppCompatActivity {
 
@@ -27,6 +27,7 @@ public class QuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+        setRequestedOrientation(SCREEN_ORIENTATION_NOSENSOR);
 
 
         answer1 = (Button) findViewById(R.id.answer1);

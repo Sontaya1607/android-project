@@ -23,7 +23,7 @@
         <activity android:name=".BlueActivity" />
         <activity android:name=".YellowActivity" />
         <activity android:name=".RedActivity" />
-        <activity android:name=".QuizActivity" />
+        <activity android:name=".QuizActivity" android:screenOrientation="portrait"/>
         <activity android:name=".Result" />
     </application>
 
